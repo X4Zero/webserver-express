@@ -28,6 +28,15 @@ app.get('/about', (req, res) => {
     res.render('about');
 });
 
+app.get('/pruebafrbs', (req, res) => {
+    // res.send('Hola Mundo');
+
+    res.send({
+        nombre: "Antony Romero",
+        vehiculo: "ABC-496"
+    });
+});
+
 /* app.get('/data', (req, res) => {
     res.send('Hola Mundo');
 }); */
